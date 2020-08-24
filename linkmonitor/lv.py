@@ -175,7 +175,7 @@ class Monitor:
 				if self.stock_info.get('sizes') != current_stock_info.get('sizes') and len(self.stock_info.get('sizes'))<=len(current_stock_info.get('sizes')):
 						restocked = True
 			else: 
-				if instock != self.instock:
+				if instock != self.instock and instock==True:
 					restocked=True
 			
 			current_stock_info['title'] =self.stock_info['title']
