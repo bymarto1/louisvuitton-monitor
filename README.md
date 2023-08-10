@@ -1,3 +1,4 @@
 # louisvuitton-monitor
-Old monitor for the website of Louis Vuitton
+Old monitor for monitoring items in the website of Louis Vuitton
+
 Deprecated
